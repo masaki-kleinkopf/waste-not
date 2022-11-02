@@ -1,11 +1,12 @@
 .overview {
   display:grid;
   place-items: center;
-  border: solid;
-  background-color: #4A7B9D ;
+  /* background-color: #f9f9f9 ; */
   padding:1rem;
-  color: #FFFFF9;
+  color: black;
   margin-top: 1rem;
+  width:80rem;
+  margin-left: 4rem;
 }
 
 .overview > p {
