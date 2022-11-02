@@ -1,7 +1,6 @@
 .expiration {
   text-align: center;
-  background-color: #8b0000;
-  color: #FFFFF9;
+  color: #840032;
   font-size: 1.5rem;
   padding-bottom: .5rem;
   padding-top: .5rem;
@@ -14,10 +13,9 @@
   justify-content: space-evenly;
   align-items: center;
   box-sizing: border-box;
-  border: 3px solid black;
   padding: 2rem;
-  background-color: #4A7B9D;
-  color: #FFFFF9;
+  background-color: #f9f9f9;
+  color: black;
   font-size: 1.25rem;
   margin: 1rem;
   width: 75vw;
