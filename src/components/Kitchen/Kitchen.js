@@ -38,6 +38,9 @@ const Kitchen = () => {
     return (
       <section className='kitchen-container'>
         <ItemForm refetch={refetch} />
+        <NavLink to='/expiring'>
+          <p>show all expiring items</p>
+        </NavLink>
         <article className='kitchen'>
           <div className='pantry'>
             <NavLink to='/pantry'>
@@ -67,9 +70,6 @@ const Kitchen = () => {
             {getKitchen('freezer')}
           </div>
         </article>
-        <NavLink to='/expiring'>
-          <button className='kitchen-button'>SHOW POSSIBLE DONATIONS</button>
-        </NavLink>
       </section>
     ) 
   }
