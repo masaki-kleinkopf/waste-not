@@ -67,7 +67,7 @@ const ItemForm = ({ refetch }) => {
           onChange={event => setDate(event.target.value)}
           required
         />
-        <button>ADD FOOD</button>
+        <button className='item-form-button'>Add Food</button>
       </form>
     </section>
     )

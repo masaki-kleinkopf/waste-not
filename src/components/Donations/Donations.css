@@ -8,3 +8,9 @@
   flex-direction: column;
   align-items: center;
 }
+
+.confirm-donations-button {
+  height:2rem;
+  width:10rem;
+  font-weight: 600;
+}
