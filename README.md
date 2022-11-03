@@ -33,7 +33,7 @@
 - Check out the information on our Back End server [here!](https://github.com/Waste-Not-Want-Not/waste-not-be) 
 
 ## Illustrations
-![waste-not1](https://user-images.githubusercontent.com/97985027/189194281-d6573aa2-7bd5-4186-aa52-050a4eb69bf9.gif)
+<img width="1430" alt="Screen Shot 2022-11-03 at 12 30 27 PM" src="https://user-images.githubusercontent.com/97985027/199816778-a5c5c5d5-26ba-45c4-85d6-2838dc45aea6.png">
 ![waste-not2](https://user-images.githubusercontent.com/97985027/189194347-63219a3a-29ca-49f3-a21f-d4e2f02c7a70.gif)
 ![waste-not3](https://user-images.githubusercontent.com/97985027/189194381-88082436-2c41-4d78-928c-68732a8f5945.gif)
 
