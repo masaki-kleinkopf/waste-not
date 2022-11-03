@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background-color: #BBBBBB ;
+  background-color: #ffffff ;
   font-family: 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -16,4 +16,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  border:none;
+  background-color: #A47551;
+  color:#ffffff;
+  border-radius: 2%;
 }
