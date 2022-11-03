@@ -36,9 +36,8 @@
 <img width="1427" alt="Screen Shot 2022-11-03 at 12 29 02 PM" src="https://user-images.githubusercontent.com/97985027/199816814-5edfd07a-e93a-4e3a-bfd3-f89cde7166ca.png">
 <img width="1430" alt="Screen Shot 2022-11-03 at 12 30 27 PM" src="https://user-images.githubusercontent.com/97985027/199816778-a5c5c5d5-26ba-45c4-85d6-2838dc45aea6.png">
 <img width="1424" alt="Screen Shot 2022-11-03 at 12 29 12 PM" src="https://user-images.githubusercontent.com/97985027/199816809-766140c1-ebf6-4ddd-9ead-6b393b7656ca.png">
-<img width="1430" alt="Screen Shot 2022-11-03 at 12 30 04 PM" src="https://user-images.githubusercontent.com/97985027/199816790-6bc873b3-77ab-47f8-b5ca-9753f5dc60ee.png">
-<img width="1431" alt="Screen Shot 2022-11-03 at 12 29 41 PM" src="https://user-images.githubusercontent.com/97985027/199816802-7fbacdd8-a949-4075-85e5-fa239f70dcf8.png">
 <img width="1425" alt="Screen Shot 2022-11-03 at 12 29 25 PM" src="https://user-images.githubusercontent.com/97985027/199816804-56c0dd35-fbf2-44c0-bd29-44b305e6a6be.png">
+<img width="1430" alt="Screen Shot 2022-11-03 at 12 30 04 PM" src="https://user-images.githubusercontent.com/97985027/199816790-6bc873b3-77ab-47f8-b5ca-9753f5dc60ee.png">
 
 
 ## Application Wireframes
