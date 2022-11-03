@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 const client = new ApolloClient({
 	cache: new InMemoryCache(),
-	uri: 'https://waste-not-be.herokuapp.com/graphql',
+	uri: 'https://proxy.cors.sh/https://waste-not-be.herokuapp.com/graphql',
 });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
