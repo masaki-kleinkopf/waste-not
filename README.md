@@ -26,7 +26,7 @@
 
 ## Deployed Link
 
-- Check out our application [here!]( https://waste-not-wn.herokuapp.com/)
+- Check out our application [here!](https://waste-not.vercel.app/mykitchen)
 
 ## Back End Server
 
