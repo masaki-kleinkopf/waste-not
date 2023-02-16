@@ -26,16 +26,19 @@
 
 ## Deployed Link
 
-- Check out our application [here!]( https://waste-not-wn.herokuapp.com/)
+- Check out our application [here!](https://waste-not.vercel.app/mykitchen)
 
 ## Back End Server
 
 - Check out the information on our Back End server [here!](https://github.com/Waste-Not-Want-Not/waste-not-be) 
 
 ## Illustrations
-![waste-not1](https://user-images.githubusercontent.com/97985027/189194281-d6573aa2-7bd5-4186-aa52-050a4eb69bf9.gif)
-![waste-not2](https://user-images.githubusercontent.com/97985027/189194347-63219a3a-29ca-49f3-a21f-d4e2f02c7a70.gif)
-![waste-not3](https://user-images.githubusercontent.com/97985027/189194381-88082436-2c41-4d78-928c-68732a8f5945.gif)
+<img width="1427" alt="Screen Shot 2022-11-03 at 12 29 02 PM" src="https://user-images.githubusercontent.com/97985027/199816814-5edfd07a-e93a-4e3a-bfd3-f89cde7166ca.png">
+<img width="1430" alt="Screen Shot 2022-11-03 at 12 30 27 PM" src="https://user-images.githubusercontent.com/97985027/199816778-a5c5c5d5-26ba-45c4-85d6-2838dc45aea6.png">
+<img width="1424" alt="Screen Shot 2022-11-03 at 12 29 12 PM" src="https://user-images.githubusercontent.com/97985027/199816809-766140c1-ebf6-4ddd-9ead-6b393b7656ca.png">
+<img width="1425" alt="Screen Shot 2022-11-03 at 12 29 25 PM" src="https://user-images.githubusercontent.com/97985027/199816804-56c0dd35-fbf2-44c0-bd29-44b305e6a6be.png">
+<img width="1430" alt="Screen Shot 2022-11-03 at 12 30 04 PM" src="https://user-images.githubusercontent.com/97985027/199816790-6bc873b3-77ab-47f8-b5ca-9753f5dc60ee.png">
+
 
 ## Application Wireframes
 ### My Kitchen Page
