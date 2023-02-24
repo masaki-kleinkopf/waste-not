@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Kitchen.css";
 import ItemForm from "../ItemForm/ItemForm";
 import Preview from "../Preview/Preview";
