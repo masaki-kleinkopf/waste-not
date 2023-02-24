@@ -13,7 +13,6 @@ const Kitchen = () => {
   const { loading, data, error, refetch } = useQuery(GET_ITEMS_QUERY, {
     variables: { id: 1 },
   });
-  useEffect(() => {}, [data]);
   if (error)
     return (
       <h1 className="error">Technical difficulties, please visit us later.</h1>
