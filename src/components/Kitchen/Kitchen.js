@@ -1,78 +1,83 @@
-import React from 'react';
-import './Kitchen.css';
-import ItemForm from '../ItemForm/ItemForm';
-import Preview from '../Preview/Preview';
-import Pantry from '../../assets/pantry.png';
-import Fridge from '../../assets/fridge.png';
-import Freezer from '../../assets/freezer.png';
-import { useQuery } from '@apollo/client';
-import { GET_ITEMS_QUERY } from '../../graphql/queries';
-import { NavLink } from 'react-router-dom';
+import React, { useEffect } from "react";
+import "./Kitchen.css";
+import ItemForm from "../ItemForm/ItemForm";
+import Preview from "../Preview/Preview";
+import Pantry from "../../assets/pantry.png";
+import Fridge from "../../assets/fridge.png";
+import Freezer from "../../assets/freezer.png";
+import { useQuery } from "@apollo/client";
+import { GET_ITEMS_QUERY } from "../../graphql/queries";
+import { NavLink } from "react-router-dom";
 
 const Kitchen = () => {
-	
-  const {loading, data, error, refetch} = useQuery( GET_ITEMS_QUERY, {
-    variables: { id: 1 }
-  })
-  
-  if (error) return <h1 className='error'>Technical difficulties, please visit us later.</h1>
-  
-  if (loading) return <h2 className='loading'>LOADING...</h2>
-  
-  if (data) {
+  const { loading, data, error, refetch } = useQuery(GET_ITEMS_QUERY, {
+    variables: { id: 1 },
+  });
+  useEffect(() => {}, [data]);
+  if (error)
+    return (
+      <h1 className="error">Technical difficulties, please visit us later.</h1>
+    );
 
+  if (loading) return <h2 className="loading">LOADING...</h2>;
+
+  if (data) {
     let newItems = [...data.getUserById.items];
-  
+
     const getKitchen = (location) => {
-      const filteredItems = newItems.filter(item => item.location === location);
-      let sortedPreviews = filteredItems.sort((a, b) => {
-        const date1 = new Date(a.expirationDate);
-        const date2 = new Date(b.expirationDate);
-        return date1 - date2
-      }).map((item) => {
-        return <Preview key={item.name} item={item} />
-      })
-        return sortedPreviews.splice(0,5)
-    }
+      const filteredItems = newItems.filter(
+        (item) => item.location === location
+      );
+      let sortedPreviews = filteredItems
+        .sort((a, b) => {
+          const date1 = new Date(a.expirationDate);
+          const date2 = new Date(b.expirationDate);
+          return date1 - date2;
+        })
+        .map((item) => {
+          return <Preview key={item.name} item={item} />;
+        });
+      return sortedPreviews.splice(0, 5);
+    };
 
     return (
-      <section className='kitchen-container'>
-        <ItemForm refetch={refetch} />
-        <NavLink to='/expiring'>
+      <section className="kitchen-container">
+        <ItemForm data={data} refetch={refetch} />
+        <NavLink to="/expiring">
           <p>show all expiring items</p>
         </NavLink>
-        <article className='kitchen'>
-          <div className='pantry'>
-            <NavLink to='/pantry'>
-              <div className='location-link'>
+        <article className="kitchen">
+          <div className="pantry">
+            <NavLink to="/pantry">
+              <div className="location-link">
                 <h3>Pantry</h3>
-                <img className='location-img' src={Pantry} alt='pantry'/>
+                <img className="location-img" src={Pantry} alt="pantry" />
               </div>
             </NavLink>
-            {getKitchen('pantry')}
+            {getKitchen("pantry")}
           </div>
-          <div className='fridge'>
-            <NavLink to='/fridge'>
-              <div className='location-link'>
+          <div className="fridge">
+            <NavLink to="/fridge">
+              <div className="location-link">
                 <h3>Fridge</h3>
-                <img className='location-img' src={Fridge} alt='fridge'/>
+                <img className="location-img" src={Fridge} alt="fridge" />
               </div>
             </NavLink>
-            {getKitchen('fridge')}
+            {getKitchen("fridge")}
           </div>
-          <div className='freezer'>
-            <NavLink to='/freezer'>
-              <div className='location-link'>
+          <div className="freezer">
+            <NavLink to="/freezer">
+              <div className="location-link">
                 <h3>Freezer</h3>
-                  <img className='location-img' src={Freezer} alt='freezer'/>
+                <img className="location-img" src={Freezer} alt="freezer" />
               </div>
             </NavLink>
-            {getKitchen('freezer')}
+            {getKitchen("freezer")}
           </div>
         </article>
       </section>
-    ) 
+    );
   }
-}
+};
 
 export default Kitchen;
