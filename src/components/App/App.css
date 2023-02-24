@@ -1,3 +1,8 @@
 .app {
-    background-color: #ffffff;
+  background-color: #ffffff;
+}
+
+button:hover {
+  border-style: solid;
+  border-color: #4a7b9d;
 }
