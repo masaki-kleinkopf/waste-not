@@ -1,7 +1,9 @@
 .app {
   background-color: #ffffff;
 }
-
+button {
+  border-radius: 10%;
+}
 button:hover {
   border-style: solid;
   border-color: #4a7b9d;
